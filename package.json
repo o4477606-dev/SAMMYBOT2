@@ -1,0 +1,12 @@
+{
+  "name": "sammybot",
+  "version": "1.0.0",
+  "description": "Дневник питания и инсулина с распознаванием блюд по фото (справочные расчёты, не медицинский инструмент)",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": { "node": ">=18" }
+}
